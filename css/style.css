@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Giga:wght@200&display=swap');
+
+:root{
+    --color:
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/background2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.nav-cont a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-cont .collapse{
+    color: wheat;
+}
+
+.navbar-brand{
+    margin-left: 5%;
+}
+.navbar-nav {
+    margin-right: 15%;
+}
+.navbar-nav li{
+    margin-left: 10%;
+}
+
+/* main content text  */
+
+.main-text{
+    margin-top: 10%;
+    line-height: 25px;
+}
+.Certified{
+    color: #FEC341;
+}
+.main-text h1{
+    font-family: 'Inter', sans-serif;
+    min-width: none;
+    font-size: 4vw;
+    text-shadow: 80%;
+    font-weight: bold;
+    
+}
+.main-desc{
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 2vw;
+}
+.main-desc-two{
+    color: #FEC341;
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 2vw;
+}
+.buttn-text{
+    width: 230px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    background-color: #FEC341;
+    color: #FFFFFF;
+    outline-style: none;
+    border-color: #FEC341;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+/* Social media icons  */
+
+#connection{
+    margin-top: 14%;
+    color: antiquewhite;
+}
+.bg-colour{
+    background-color: #F2EEEE;
+}
+.social-icon{
+    text-align: left;
+}
+.social-icon a i{
+    font-size: 60px;
+}
+.social-icon a{
+    color: #FEC341;
+    margin-left: 50%;
+}
+.social-icon div p{
+    color: black;
+    margin: 0;
+}
+.center-respons p:nth-child(1){
+    font-weight: bolder;
+}
+.center-respons {
+    position: relative;
+    left: -20px;
+}
+
+/* Gallery Section  */
+#gallery{
+    background-color: #FEEABE;
+    text-shadow: 2px 5px 7px rgb(151, 129, 48);
+}
+
+.text-head{
+    font-size: 5vw;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    color: #FEC341;
+    text-shadow:black;
+}
+
+.border{
+    /* background-color: rebeccapurple; */
+    border-radius: 10px;
+    height: 260px;
+    width: 400px;
+    padding: 3%;
+    background-color: #FEC341;
+    
+}
+
+.img-under-text h5{
+    margin-top: 3%;
+}
+
+/* Achievement section  */
+
+#achievement{
+    background-color: #D7BE99;
+    
+}
+.achievement-box{
+    margin-top: 5%;
+    text-align:end;
+}
+
+.achievement-value p{
+    color: black;
+    font-size: 30px;
+    
+}
+.achievement-value{
+    line-height: 30px; 
+    margin-bottom: 5%;   
+}
+.achievement-tag{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.text-postion{
+    text-align: center;
+}
+
+
+/* worked with companies  */
+
+#work-listed{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+
+.table-box{
+    margin: 0 70px 0;
+}
+
+.table-head{
+    padding-top: 2%;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: black;
+    margin: 0;
+}
+.table-box{
+    padding-bottom: 4%;
+}
+.caption-value{
+    margin-top: 3%;
+    text-decoration: none;
+    
+}
+
+
+
+/* Footer contact us section  */
+
+
+#contact-sec{
+    background-color: burlywood;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.contact-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-cont h1{
+    color: white;
+    font-style: inherit;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.contact-item h3{
+    font-weight: bold;
+}
+
+#galerybtn{
+    width: 80%;
+    display: flex;
+    /* flex-direction: ; */
+}
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        background-attachment: fixed;
+    }
+    .contact-icon i{
+    display: flex;
+    justify-content: center;
+    
+    }
+    .nav-cont a{
+        margin-left: 8%;
+    }
+    .navbar-toggler{
+        margin-right: 5%;
+    }
+    .main-text{
+        margin-top: 10%;
+        line-height: 10px;
+        font-weight: bold;
+    }
+    .social-icon a{
+        color: #FEC341;
+        margin-left: 45%;
+    }
+    .center-respons{
+        text-align: center;
+    }
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+
+
+
