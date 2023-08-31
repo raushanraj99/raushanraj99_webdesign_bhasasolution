@@ -248,12 +248,30 @@ body{
     .contact-icon i{
     display: flex;
     justify-content: center;
-    
+    }
+
+    .buttn-text{
+        width: 140px;
+        height: 30px;
+        font-size: 18px;
     }
     .nav-cont a img{
         margin-left: 2%;
         width: 250px;
         
+    }
+    #work-listed{
+        margin-left: -38px;
+    }
+    .table-head{
+        font-size: 25px;
+        text-align: center;
+        padding: 5% 0;
+
+    }
+    .border{
+        height: 218px;
+        width: 327px;
     }
     .nav-cont{
         margin-top: -30px;
@@ -273,6 +291,7 @@ body{
     }
     .center-respons{
         text-align: center;
+        margin-left: 23px;
     }
     .contact-info {
         grid-template-columns: 1fr;
