@@ -250,11 +250,17 @@ body{
     justify-content: center;
     
     }
-    .nav-cont a{
-        margin-left: 8%;
+    .nav-cont a img{
+        margin-left: 2%;
+        width: 250px;
+        
+    }
+    .nav-cont{
+        margin-top: -30px;
     }
     .navbar-toggler{
         margin-right: 5%;
+        margin-top: -10px;
     }
     .main-text{
         margin-top: 10%;
