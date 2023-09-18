@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Giga:wght@200&display=swap');
 
-:root{
-    --color:
-}
 body{
     margin: 0;
     padding: 0;
@@ -27,7 +24,11 @@ body{
 .nav-cont .collapse{
     color: wheat;
 }
-
+.nav-cont button{
+    background-color: #f0f0f0;
+    width: 53px;
+    height: 38px;
+}
 .navbar-brand{
     margin-left: 5px;
 }
@@ -122,8 +123,8 @@ body{
     text-shadow:black;
 }
 
+/* background-color: rebeccapurple; */
 .border{
-    /* background-color: rebeccapurple; */
     border-radius: 10px;
     height: 240px;
     width: 350px;
@@ -261,14 +262,17 @@ body{
         
     }
     #work-listed{
-        margin-left: -38px;
+        margin-left: -20px;
     }
     .table-head{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         padding: 5% 0;
-
     }
+    .t-body{
+        font-size: 15px;
+    }
+
     .border{
         height: 218px;
         width: 327px;
