@@ -255,10 +255,10 @@ body{
         width: 140px;
         height: 30px;
         font-size: 18px;
-    }
+    }    
     .nav-cont a img{
         margin-left: 30px;
-        margin-top: 12px;
+        margin-top: 20px;
         width: 180px;
         height: 65px;
         
@@ -284,7 +284,7 @@ body{
     }
     .navbar-toggler{
         margin-right: 5%;
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .main-text{
         margin-top: 10%;
